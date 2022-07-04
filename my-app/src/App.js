@@ -7,6 +7,7 @@ import Content from './components/Content';
 // import EventsClass from './components/EventsClass';
 // import EventsFunctional from './components/EventsFunctional';
 
+
 function App() {
   return (
     <div className={css.App}>
@@ -14,6 +15,7 @@ function App() {
       <NavBarForm />
       <Sidebar />
       <Content />
+      
     </div>
   );
 }
