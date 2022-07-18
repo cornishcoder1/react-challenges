@@ -4,9 +4,10 @@ import Sidebar from './components/Sidebar';
 // import EventsClass from './components/EventsClass';
 import NavBarForm from './components/NavBarForm';
 // import Content from './components/Content';
-import ContentHooks from './components/ContentHooks';
+// import ContentHooks from './components/ContentHooks';
 // import EventsClass from './components/EventsClass';
 // import EventsFunctional from './components/EventsFunctional';
+import Content from './components/ContentAPI';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       <NavBarForm />
       <Sidebar />
       {/* <Content /> */}
-      <ContentHooks />
+      {/* <ContentHooks /> */}
+      <Content />
       
     </div>
   );
