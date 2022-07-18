@@ -7,7 +7,8 @@ import NavBarForm from './components/NavBarForm';
 // import ContentHooks from './components/ContentHooks';
 // import EventsClass from './components/EventsClass';
 // import EventsFunctional from './components/EventsFunctional';
-import Content from './components/ContentAPI';
+// import Content from './components/ContentAPI';
+import ContentAPIHooks from './components/ContentAPIHooks';
 
 
 function App() {
@@ -18,8 +19,8 @@ function App() {
       <Sidebar />
       {/* <Content /> */}
       {/* <ContentHooks /> */}
-      <Content />
-      
+      {/* <Content /> */}
+      <ContentAPIHooks />
     </div>
   );
 }
